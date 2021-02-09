@@ -69,3 +69,17 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.events {
+  padding: 0 21px;
+}
+
+.events img {
+  max-width: 100%;
+}
+
+.event-one,
+.event-two,
+.event-three {
+  background-color: white;
+}

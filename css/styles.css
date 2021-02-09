@@ -41,7 +41,7 @@ header {
 nav {
   display: none;
   position: fixed;
-  top: 68px;
+  top: 52px;
   background: white;
   z-index: 1000;
   right: 0px;
