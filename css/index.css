@@ -13,17 +13,16 @@ body {
 
 .home-hero h1 {
   background-color: #86a89f;
-  padding: 12px 21px;
+  padding: 12px 14px;
 }
 
 .welcome-content {
   background-color: white;
-  padding: 0 21px;
   display: inline-block;
 }
 
 .circle-buttons {
-  padding: 14px 21px 0 21px;
+  padding: 14px 14px 0 14px;
 }
 
 .circle-button-one,
@@ -70,8 +69,11 @@ body {
   justify-content: space-around;
 }
 
-.events {
-  padding: 0 21px;
+.events,
+.events h3,
+.events p,
+.welcome-content {
+  padding: 0 14px 14px 14px;
 }
 
 .events img {
