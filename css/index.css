@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+.home-hero {
+  background-image: url(../images/billetto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero h1 {
+  background-color: #86a89f;
+  padding: 12px 21px;
+}
+
+.welcome-content {
+  background-color: white;
+  padding: 0 21px;
+  display: inline-block;
+}
+
+.circle-buttons {
+  padding: 14px 21px 0 21px;
+}
+
+.circle-button-one,
+.circle-button-two,
+.circle-button-three {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-button-one {
+  background-color: #e38635;
+}
+
+.circle-button-two {
+  background-color: #86a89f;
+}
+
+.circle-button-three {
+  background-color: #f5b677;
+}
+
+.circle-buttons a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-clock,
+.fa-ticket-alt,
+.fa-lightbulb {
+  font-size: 28px;
+}
+
+.circle-buttons {
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: space-around;
+}
