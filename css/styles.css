@@ -64,3 +64,47 @@ nav li a {
 #hamburger-menu:checked ~ nav {
   display: block;
 }
+
+footer h3 {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #86a89f;
+}
+
+.footer-contact,
+.footer-navigate,
+.footer-copyright p,
+.footer-some {
+  padding: 14px 14px;
+}
+
+.footer-navigate {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-copyright {
+  background-color: #3f5b49;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.footer-contact div {
+  margin-bottom: 10px;
+}
+
+.footer-contact i,
+.footer-some i {
+  margin-right: 10px;
+}
+
+.footer-some i {
+  font-size: x-large;
+}
