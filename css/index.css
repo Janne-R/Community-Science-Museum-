@@ -11,14 +11,25 @@ body {
   align-items: center;
 }
 
-.home-hero h1 {
+.home-hero-title {
   background-color: #86a89f;
-  padding: 12px 14px;
 }
 
-.welcome-content {
+.home-hero h1 {
+  padding: 0 14px;
+}
+
+.welcome-section {
   background-color: white;
-  display: inline-block;
+  display: flow-root;
+}
+
+.welcome-content img {
+  display: none;
+}
+
+.welcome-text-web {
+  display: none;
 }
 
 .circle-buttons {
@@ -73,7 +84,11 @@ body {
 .events h3,
 .events p,
 .welcome-content {
-  padding: 0 14px 14px 14px;
+  padding: 0 14px 28px 14px;
+}
+
+.events p {
+  padding-bottom: 23px;
 }
 
 .events img {

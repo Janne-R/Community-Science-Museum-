@@ -27,6 +27,9 @@ body {
 
 header {
   background-color: white;
+}
+
+.header-content {
   height: 52px;
   display: flex;
   align-items: center;
@@ -40,7 +43,7 @@ header {
 
 nav {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 51px;
   background: white;
   z-index: 1000;
