@@ -2,7 +2,6 @@ h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
-  margin: 14px 0;
 }
 
 h1 {
@@ -31,7 +30,7 @@ header {
 }
 
 .header-content {
-  height: 52px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +44,7 @@ header {
 nav {
   display: none;
   position: absolute;
-  top: 51px;
+  top: 65px;
   background: white;
   z-index: 1000;
   right: 0px;
@@ -108,4 +107,8 @@ footer a {
 
 .footer-some i {
   font-size: x-large;
+}
+
+.footer-some {
+  margin-top: 28px;
 }

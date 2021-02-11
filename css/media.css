@@ -1,12 +1,31 @@
 @media (min-width: 480px) {
+  /*index*/
+  .welcome-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .welcome-content img {
+    display: block;
+    max-width: 40%;
+    margin-right: 20px;
+  }
+
+  .events-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
 }
 
 @media (min-width: 768px) {
+  /*common styles*/
   section > * {
     max-width: 1000px;
     margin: 14px auto;
   }
 
+  /*header*/
   .header-content {
     max-width: 1000px;
     margin: 0 auto;
@@ -29,25 +48,21 @@
     font-size: 16px;
   }
 
-  .buy-tickets-cta {
+  .cta-small {
     background-color: #e38635;
     border-radius: 17px;
     padding: 5px 12px;
   }
 
+  /*footer*/
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*index*/
   .home-hero {
     height: 42vh;
-  }
-
-  .welcome-content {
-    display: flex;
-    align-items: center;
-  }
-
-  .welcome-content img {
-    display: block;
-    max-width: 40%;
-    margin-right: 20px;
   }
 
   .welcome-text-web {
@@ -55,8 +70,6 @@
   }
 
   .events-list {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
   }
 }
