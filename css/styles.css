@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 h1,
 h2,
 h3 {
@@ -5,13 +7,13 @@ h3 {
 }
 
 h1 {
-  color: #14393a;
+  color: var(--color-primary);
   font-size: 24px;
 }
 
 h2,
 h3 {
-  color: #365c48;
+  color: var(--color-secondary);
   font-size: 21px;
 }
 
@@ -22,11 +24,11 @@ h3 {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  background-color: #f2f2f2;
+  background-color: var(--background-color-primary);
 }
 
 header {
-  background-color: white;
+  background-color: var(--background-color-tiertiary);
 }
 
 .header-content {
@@ -45,7 +47,7 @@ nav {
   display: none;
   position: absolute;
   top: 65px;
-  background: white;
+  background: var(--background-color-tiertiary);
   z-index: 1000;
   right: 0px;
 }
@@ -73,7 +75,7 @@ footer h3 {
 }
 
 footer {
-  background-color: #86a89f;
+  background-color: var(--color-tertiary);
 }
 
 footer > * {
@@ -86,7 +88,7 @@ footer > * {
 }
 
 .footer-copyright {
-  background-color: #3f5b49;
+  background-color: var(--color-secondary);
 }
 
 footer a {

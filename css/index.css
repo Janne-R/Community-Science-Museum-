@@ -12,7 +12,7 @@ body {
 }
 
 .home-hero-title {
-  background-color: #86a89f;
+  background-color: var(--color-tertiary);
 }
 
 .home-hero h1 {
@@ -20,7 +20,7 @@ body {
 }
 
 .welcome-section {
-  background-color: white;
+  background-color: var(--background-color-tiertiary);
   display: flow-root;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .section-circle-buttons {
-  background-color: #e4e4e4;
+  background-color: var(--background-color-secondary);
 }
 
 .circle-buttons {
@@ -59,15 +59,15 @@ body {
 }
 
 .circle-button-one {
-  background-color: #e38635;
+  background-color: var(--color-quaternary);
 }
 
 .circle-button-two {
-  background-color: #86a89f;
+  background-color: var(--color-tertiary);
 }
 
 .circle-button-three {
-  background-color: #f5b677;
+  background-color: var(--color-quinary);
 }
 
 .circle-buttons a {
@@ -108,5 +108,5 @@ body {
 .event-one,
 .event-two,
 .event-three {
-  background-color: white;
+  background-color: var(--background-color-tiertiary);
 }
