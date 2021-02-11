@@ -1,33 +1,19 @@
 @media (min-width: 480px) {
-  .home-hero h1 {
-    padding: 0 14px 0 68px;
-  }
-
-  .events,
-  .welcome-content {
-    padding: 0 68px 28px 68px;
-  }
-
-  .footer-contact,
-  .footer-navigate,
-  .footer-copyright p,
-  .footer-some {
-    padding: 14px 68px;
-  }
 }
 
 @media (min-width: 768px) {
-  header {
-    padding: 12px 68px;
-  }
-
-  header label {
-    display: none;
+  section > * {
+    max-width: 1000px;
+    margin: 14px auto;
   }
 
   .header-content {
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  header label {
+    display: none;
   }
 
   nav {
@@ -38,6 +24,7 @@
   nav li {
     display: inline;
   }
+
   nav li a {
     font-size: 16px;
   }
@@ -53,18 +40,23 @@
   }
 
   .welcome-content {
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
   }
 
   .welcome-content img {
     display: block;
-    max-width: 50%;
+    max-width: 40%;
+    margin-right: 20px;
   }
 
   .welcome-text-web {
     display: block;
+  }
+
+  .events-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
   }
 }

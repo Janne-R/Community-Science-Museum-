@@ -32,6 +32,17 @@ body {
   display: none;
 }
 
+.section-circle-buttons {
+  background-color: #e4e4e4;
+}
+
+.circle-buttons {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 .circle-buttons {
   padding: 14px 14px 0 14px;
 }
@@ -74,17 +85,16 @@ body {
   font-size: 28px;
 }
 
-.circle-buttons {
-  background-color: #e4e4e4;
-  display: flex;
-  justify-content: space-around;
-}
-
+.welcome-content,
+.circle-buttons,
 .events,
 .events h3,
-.events p,
-.welcome-content {
-  padding: 0 14px 28px 14px;
+.events p {
+  padding: 14px;
+}
+
+.circle-buttons {
+  padding-top: 28px;
 }
 
 .events p {

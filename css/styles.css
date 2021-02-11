@@ -2,6 +2,7 @@ h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
+  margin: 14px 0;
 }
 
 h1 {
@@ -76,11 +77,8 @@ footer {
   background-color: #86a89f;
 }
 
-.footer-contact,
-.footer-navigate,
-.footer-copyright p,
-.footer-some {
-  padding: 14px 14px;
+footer > * {
+  padding: 14px;
 }
 
 .footer-navigate {
