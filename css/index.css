@@ -53,4 +53,5 @@
 .event-two,
 .event-three {
   background-color: var(--color-light);
+  margin-top: 1em;
 }

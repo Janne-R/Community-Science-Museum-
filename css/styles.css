@@ -145,6 +145,7 @@ footer h3 {
 
 footer {
   background-color: var(--color-tertiary);
+  margin-top: 1em;
 }
 
 footer > * {
