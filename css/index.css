@@ -1,26 +1,9 @@
-body {
-  margin: 0px;
-}
-
-.home-hero {
+.bg-img-home {
   background-image: url(../images/billetto.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 31vh;
-  display: flex;
-  align-items: center;
-}
-
-.home-hero-title {
-  background-color: var(--color-tertiary);
-}
-
-.home-hero h1 {
-  padding: 0 14px;
 }
 
 .welcome-section {
-  background-color: var(--background-color-tiertiary);
+  background-color: var(--color-light);
   display: flow-root;
 }
 
@@ -32,68 +15,29 @@ body {
   display: none;
 }
 
-.section-circle-buttons {
+.cta-circle-section {
   background-color: var(--background-color-secondary);
 }
 
-.circle-buttons {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.circle-buttons {
-  padding: 14px 14px 0 14px;
-}
-
-.circle-button-one,
-.circle-button-two,
-.circle-button-three {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.circle-button-one {
+.cta-circle_visit-us {
   background-color: var(--color-quaternary);
 }
 
-.circle-button-two {
+.cta-circle_buy-tickets {
   background-color: var(--color-tertiary);
 }
 
-.circle-button-three {
+.cta-circle_exhibitions {
   background-color: var(--color-quinary);
 }
 
-.circle-buttons a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.fa-clock,
-.fa-ticket-alt,
-.fa-lightbulb {
-  font-size: 28px;
-}
-
 .welcome-content,
-.circle-buttons,
-.events,
-.events h3,
-.events p {
-  padding: 14px;
+.cta-circle-section,
+.events {
+  padding: 5px 14px;
 }
 
-.circle-buttons {
+.cta-circle-section {
   padding-top: 28px;
 }
 
@@ -108,5 +52,5 @@ body {
 .event-one,
 .event-two,
 .event-three {
-  background-color: var(--background-color-tiertiary);
+  background-color: var(--color-light);
 }

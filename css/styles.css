@@ -1,9 +1,17 @@
 @import "imports/variables.css";
 
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: var(--background-color-primary);
+}
+
 h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
+  padding: 5px 14px;
 }
 
 h1 {
@@ -21,14 +29,12 @@ h3 {
   font-size: 18px;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  background-color: var(--background-color-primary);
+p {
+  padding: 5px 14px;
 }
 
 header {
-  background-color: var(--background-color-tiertiary);
+  background-color: var(--color-light);
 }
 
 .header-content {
@@ -47,7 +53,7 @@ nav {
   display: none;
   position: absolute;
   top: 65px;
-  background: var(--background-color-tiertiary);
+  background: var(--color-light);
   z-index: 1000;
   right: 0px;
 }
@@ -59,7 +65,7 @@ nav li {
 
 nav li a {
   text-decoration: none;
-  color: #000000;
+  color: var(--color-dark);
 }
 
 #hamburger-menu {
@@ -70,8 +76,64 @@ nav li a {
   display: block;
 }
 
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  background-color: var(--color-tertiary);
+}
+
+.hero h1 {
+  padding: 0 14px;
+}
+
+.cta-circle-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cta-circle-container a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-circle-container i {
+  font-size: 28px;
+}
+
+.cta {
+  background-color: var(--color-quaternary);
+  border-radius: 5px;
+  padding: 8px;
+  min-width: 50%;
+  border-style: none;
+}
+
 footer h3 {
   text-transform: uppercase;
+  color: var(--color-dark);
+  padding: 0px;
 }
 
 footer {
@@ -87,13 +149,9 @@ footer > * {
   flex-direction: column;
 }
 
-.footer-copyright {
-  background-color: var(--color-secondary);
-}
-
 footer a {
   text-decoration: none;
-  color: #000000;
+  color: var(--color-dark);
   font-style: normal;
   margin-bottom: 10px;
 }
@@ -113,4 +171,13 @@ footer a {
 
 .footer-some {
   margin-top: 28px;
+}
+
+.footer-copyright {
+  background-color: var(--color-secondary);
+  padding: 1px 14px;
+}
+
+.footer-copyright p {
+  color: var(--color-light);
 }

@@ -8,7 +8,7 @@
   .welcome-content img {
     display: block;
     max-width: 40%;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .events-list {
@@ -51,7 +51,7 @@
   .cta-small {
     background-color: var(--color-quaternary);
     border-radius: 17px;
-    padding: 5px 12px;
+    padding: 8px 16px;
   }
 
   /*footer*/
