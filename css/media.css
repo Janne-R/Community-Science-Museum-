@@ -86,11 +86,24 @@
   .info-block {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 14px;
+    grid-gap: 18px;
+    margin-bottom: 18px;
   }
 
   .content-block {
     margin-top: 0;
     border-style: none;
+  }
+
+  .info-block_location,
+  .info-block_multiple,
+  .info-block_contact {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-quaternary);
+  }
+
+  iframe {
+    height: 750px;
   }
 }

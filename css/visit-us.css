@@ -71,4 +71,5 @@ input[type="submit"] {
   display: flex;
   justify-content: flex-end;
   margin-right: 14px;
+  padding-bottom: 14px;
 }
