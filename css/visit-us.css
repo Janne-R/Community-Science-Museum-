@@ -66,3 +66,9 @@ input[type="submit"] {
   text-transform: uppercase;
   font-size: 16px;
 }
+
+.contact-cta {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 14px;
+}
