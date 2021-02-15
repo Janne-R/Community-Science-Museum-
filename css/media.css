@@ -16,6 +16,13 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
+
+  /*Visit us*/
+  .info-block_multiple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 18px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -78,7 +85,6 @@
   }
 
   /*visit us*/
-
   .bg-img-visit {
     background-image: url(/images/scott-webb-desktop.jpg);
   }
@@ -93,6 +99,10 @@
   .content-block {
     margin-top: 0;
     border-style: none;
+  }
+
+  .info-block_multiple {
+    display: block;
   }
 
   .info-block_location,
