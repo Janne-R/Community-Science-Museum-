@@ -23,6 +23,10 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 0 18px;
   }
+
+  .cta-circle-section_white {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
