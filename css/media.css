@@ -25,6 +25,10 @@
     margin: 14px auto;
   }
 
+  .hero {
+    height: 41vh;
+  }
+
   /*header*/
   .header-content {
     max-width: 1000px;
@@ -71,5 +75,22 @@
 
   .events-list {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*visit us*/
+
+  .bg-img-visit {
+    background-image: url(/images/scott-webb-desktop.jpg);
+  }
+
+  .info-block {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 14px;
+  }
+
+  .content-block {
+    margin-top: 0;
+    border-style: none;
   }
 }
