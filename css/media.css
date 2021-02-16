@@ -24,6 +24,10 @@
     grid-gap: 0 18px;
   }
 
+  .info-block_multiple h2 {
+    display: inline-block;
+  }
+
   .cta-circle-section_white {
     display: none;
   }
