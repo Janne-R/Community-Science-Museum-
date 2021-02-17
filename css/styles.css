@@ -150,7 +150,8 @@ nav li a {
 .cta-container {
   display: flex;
   justify-content: flex-end;
-  margin: 14px 14px 14px 0;
+  margin: 14px 14px 0 0;
+  padding-bottom: 14px;
 }
 
 .content-block {

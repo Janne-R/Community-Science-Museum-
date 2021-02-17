@@ -11,27 +11,28 @@
     margin: 10px 40px;
   }
 
+  /*exhibition-spaces*/
   .events-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 14px;
   }
+}
 
-  /*Visit us*/
-  .info-block_multiple {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0 18px;
-  }
+/*Visit us*/
+.info-block_multiple {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 18px;
+}
 
-  .info-block_multiple h2,
-  .info-block_multiple p {
-    display: inline-block;
-  }
+.info-block_multiple h2,
+.info-block_multiple p {
+  display: inline-block;
+}
 
-  .cta-circle-section_white {
-    display: none;
-  }
+.cta-circle-section_white {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -86,8 +87,29 @@
     display: block;
   }
 
+  .item1 {
+    grid-area: cosmology;
+  }
+  .item2 {
+    grid-area: evolution;
+  }
+  .item3 {
+    grid-area: biology;
+  }
+  .item4 {
+    grid-area: ai;
+  }
+  .item5 {
+    grid-area: ecology;
+  }
+
   .events-list {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr fr 1fr;
+    grid-gap: 14px;
+    grid-template-areas:
+      "cosmology cosmology evolution"
+      "biology ai ecology";
   }
 
   /*visit us*/
@@ -121,5 +143,25 @@
 
   iframe {
     height: 750px;
+  }
+
+  /*explore*/
+  .content-block_kids,
+  .content-block_teachers,
+  .content-block_researchers {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1em;
+  }
+  .content-block_kids {
+    border-color: var(--color-quaternary);
+  }
+
+  .content-block_teachers {
+    border-color: var(--color-tertiary);
+  }
+
+  .content-block_researchers {
+    border-color: var(--color-secondary);
   }
 }
