@@ -151,6 +151,15 @@ nav li a {
   max-width: 100%;
 }
 
+.event-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+  display: flex;
+  align-items: center;
+}
+
 .events-list_block {
   background-color: var(--color-light);
   margin-top: 1em;

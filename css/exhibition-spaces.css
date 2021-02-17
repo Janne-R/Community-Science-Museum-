@@ -6,3 +6,23 @@
 .events {
   padding: 5px 14px;
 }
+
+.event_img1 {
+  background-image: url(../images/celso.jpg);
+}
+
+.event_img2 {
+  background-image: url(../images/mammoth.jpg);
+}
+
+.event_img3 {
+  background-image: url(../images/people.jpg);
+}
+
+.event_img4 {
+  background-image: url(../images/samuel-zeller-1new.jpg);
+}
+
+.event_img5 {
+  background-image: url(../images/genoa.jpg);
+}
