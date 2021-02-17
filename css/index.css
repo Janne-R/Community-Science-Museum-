@@ -2,15 +2,6 @@
   background-image: url(../images/billetto.jpg);
 }
 
-.welcome-section {
-  background-color: var(--color-light);
-  display: flow-root;
-}
-
-.welcome-content img {
-  display: none;
-}
-
 .welcome-text-web {
   display: none;
 }
@@ -39,19 +30,4 @@
 
 .cta-circle-section {
   padding-top: 28px;
-}
-
-.events p {
-  padding-bottom: 23px;
-}
-
-.events img {
-  max-width: 100%;
-}
-
-.event-one,
-.event-two,
-.event-three {
-  background-color: var(--color-light);
-  margin-top: 1em;
 }

@@ -1,0 +1,8 @@
+.bg-img-exhibition {
+  background-image: url(../images/jesse.jpg);
+}
+
+.welcome-content,
+.events {
+  padding: 5px 14px;
+}
