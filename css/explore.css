@@ -1,3 +1,15 @@
 .bg-img-explore {
   background-image: url(../images/reading.jpg);
 }
+
+.explore-section {
+  padding: 5px 14px;
+}
+
+.content-block_teachers {
+  border-color: var(--color-tertiary);
+}
+
+.content-block_researchers {
+  border-color: var(--color-secondary);
+}
