@@ -14,25 +14,25 @@
   /*exhibition-spaces*/
   .events-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 14px;
   }
-}
 
-/*Visit us*/
-.info-block_multiple {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0 18px;
-}
+  /*Visit us*/
+  .cta-circle-section_white {
+    display: none;
+  }
 
-.info-block_multiple h2,
-.info-block_multiple p {
-  display: inline-block;
-}
+  .info-block_multiple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 18px;
+  }
 
-.cta-circle-section_white {
-  display: none;
+  .info-block_multiple h2,
+  .info-block_multiple p {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 768px) {
@@ -85,6 +85,10 @@
 
   .welcome-text-web {
     display: block;
+  }
+
+  .events-list {
+    grid-template-columns: unset;
   }
 
   .item1 {
