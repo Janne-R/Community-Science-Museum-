@@ -1,5 +1,5 @@
 @media (min-width: 480px) {
-  /*index*/
+  /*index*/ /*exhibition-spaces*/
   .welcome-content {
     display: flex;
     align-items: center;
@@ -80,10 +80,7 @@
     justify-content: space-between;
   }
 
-  /*index*/
-  .home-hero {
-    height: 42vh;
-  }
+  /*index*/ /*exhibition-spaces*/
 
   .welcome-text-web {
     display: block;
