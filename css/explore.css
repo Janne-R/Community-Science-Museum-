@@ -13,3 +13,7 @@
 .content-block_researchers {
   border-color: var(--color-secondary);
 }
+
+.cta-container_view {
+  display: none;
+}

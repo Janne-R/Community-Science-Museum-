@@ -147,7 +147,9 @@ nav li a {
   border-style: none;
 }
 
-.cta-container {
+.cta-container,
+.cta-container_none,
+.cta-container_view {
   display: flex;
   justify-content: flex-end;
   margin: 14px 14px 0 0;
@@ -181,7 +183,6 @@ nav li a {
 
 .events-list_block {
   background-color: var(--color-light);
-  margin-top: 1em;
 }
 
 footer h3 {

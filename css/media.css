@@ -33,6 +33,15 @@
   .info-block_multiple p {
     display: inline-block;
   }
+
+  /*explore*/
+  .cta-container_none {
+    display: none;
+  }
+
+  .cta-container_view {
+    display: flex;
+  }
 }
 
 @media (min-width: 768px) {
