@@ -137,10 +137,20 @@ nav li a {
 
 .cta {
   background-color: var(--color-quaternary);
-  border-radius: 5px;
-  padding: 8px;
-  min-width: 50%;
+  color: var(--color-dark);
+  text-decoration-line: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 35px;
+  text-transform: uppercase;
+  font-weight: bold;
   border-style: none;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 14px 14px 14px 0;
 }
 
 .events p {
