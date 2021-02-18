@@ -1,0 +1,31 @@
+.checkout-section_img {
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-section img {
+  max-width: 50%;
+}
+
+.payment-block {
+  padding: 5px 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.one-line {
+  display: flex;
+}
+
+.one-line :first-child {
+  margin-right: 5px;
+}
+
+.one-line div {
+  display: flex;
+  flex-direction: column;
+}
+label,
+.one-line {
+  margin-top: 10px;
+}

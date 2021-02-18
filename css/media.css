@@ -42,6 +42,12 @@
   .cta-container_view {
     display: flex;
   }
+
+  /*checkout*/
+  .checkout-content {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -175,5 +181,10 @@
 
   .content-block_researchers {
     border-color: var(--color-secondary);
+  }
+
+  .payment-form {
+    display: flex;
+    justify-content: space-around;
   }
 }

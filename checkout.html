@@ -34,9 +34,70 @@
         </div>
     </header>
     <main>
-        <h1>Checkout</h1>
-        <img src="/images/credit-card-re.jpg" alt="">
+        <div class="hero-title">
+            <h1>Checkout</h1>
+        </div>
+        <section class="welcome-section">
+            <div class="welcome-content">
+                <img src="images/credit-card-re.jpg" alt="creative science experiment illustration">
+                <div>
+                    <h2>Your total is $200</h2>
+                    <p>Please fill out your payment information in the form below.</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="payment-details">
+            <form class="payment-form" action="submit.php" method="POST">
+                <div class="personal-info">
+                    <h3>Billing adress</h3>
+                    <div class="payment-block">
+                        <label for="fname">Full name</label>
+                        <input type="text" id="fname" name="name" placeholder="Full name" />
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Example@mail.com" />
+                        <div class="one-line">
+                            <div>
+                                <label for="adr">Address</label>
+                                <input type="text" id="adr" name="adress" placeholder="Street adress" />
+                            </div>
+                            <div>
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" placeholder="Zip code" />
+                            </div>
+                        </div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="City">
+                    </div>
+
+                </div>
+                <div class="billing-info">
+                    <h3>Payment</h3>
+                    <div class="payment-block">
+                        <label for="cname">Name on card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="Name on card">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX">
+                        <label for="expmonth"> Exp month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="Expiration month">
+                        <div class="one-line">
+                            <div>
+                                <label for="expyear">Exp year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="Expiration year">
+                            </div>
+                            <div>
+                                <label for="cvv">CVC</label>
+                                <input type="text" id="cvc" name="cvc" placeholder="XXX">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            <form action="/thankyou-purchase.html">
+                <input type="submit" value="Pay now" class="cta">
+            </form>
+        </section>
 
     </main>
     <footer>
