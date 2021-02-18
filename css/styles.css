@@ -107,6 +107,11 @@ nav li a {
   display: none;
 }
 
+.welcome-content,
+.events {
+  padding: 5px 14px;
+}
+
 .cta-circle-container {
   max-width: 1000px;
   margin: 0 auto;
