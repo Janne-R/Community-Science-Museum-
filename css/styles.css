@@ -76,12 +76,15 @@ nav li a {
   display: block;
 }
 
+.bg-img {
+  background-image: url(../images/banner.jpg);
+}
+
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
   height: 31vh;
-  display: flex;
-  align-items: center;
+  background-position: center center;
 }
 
 .hero-title {

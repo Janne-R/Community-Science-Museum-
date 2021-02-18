@@ -1,0 +1,18 @@
+.tickets p {
+  margin: 0;
+  padding: 0 14px;
+}
+
+.tickets_block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 26px;
+}
+
+.items {
+  margin-right: 14px;
+}
+
+.tickets_block_info {
+  display: flex;
+}

@@ -126,9 +126,6 @@
   }
 
   /*visit us*/
-  .bg-img-visit {
-    background-image: url(/images/scott-webb-desktop.jpg);
-  }
 
   .info-block {
     display: grid;
@@ -158,10 +155,11 @@
     height: 750px;
   }
 
-  /*explore*/
+  /*explore*/ /*buy-tickets*/
   .content-block_kids,
   .content-block_teachers,
-  .content-block_researchers {
+  .content-block_researchers,
+  .tickets_block {
     border-style: solid;
     border-width: 1px;
     margin-top: 1em;
