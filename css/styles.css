@@ -153,6 +153,7 @@ nav li a {
   text-transform: uppercase;
   font-weight: bold;
   border-style: none;
+  margin: 14px;
 }
 
 .cta-container,
@@ -160,8 +161,6 @@ nav li a {
 .cta-container_view {
   display: flex;
   justify-content: flex-end;
-  margin: 14px 14px 0 0;
-  padding-bottom: 14px;
 }
 
 .content-block {

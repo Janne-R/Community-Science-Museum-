@@ -184,7 +184,8 @@
   }
 
   .payment-form {
-    display: flex;
-    justify-content: space-around;
+    background: #dddddd;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }

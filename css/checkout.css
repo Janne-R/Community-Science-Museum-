@@ -7,6 +7,11 @@
   max-width: 50%;
 }
 
+.payment-details {
+  background-color: var(--color-light);
+  margin: 5px 14px;
+}
+
 .payment-block {
   padding: 5px 14px;
   display: flex;
@@ -15,6 +20,7 @@
 
 .one-line {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .one-line :first-child {
@@ -25,7 +31,16 @@
   display: flex;
   flex-direction: column;
 }
+
 label,
 .one-line {
   margin-top: 10px;
+}
+
+.one-line_first {
+  flex-grow: 2;
+}
+
+.one-line_second {
+  flex-grow: 1;
 }

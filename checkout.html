@@ -57,11 +57,11 @@
                         <label for="email">Email</label>
                         <input type="text" id="email" name="email" placeholder="Example@mail.com" />
                         <div class="one-line">
-                            <div>
+                            <div class="one-line_first">
                                 <label for="adr">Address</label>
                                 <input type="text" id="adr" name="adress" placeholder="Street adress" />
                             </div>
-                            <div>
+                            <div class="one-line_second">
                                 <label for="zip">Zip</label>
                                 <input type="text" id="zip" name="zip" placeholder="Zip code" />
                             </div>
@@ -81,20 +81,19 @@
                         <label for="expmonth"> Exp month</label>
                         <input type="text" id="expmonth" name="expmonth" placeholder="Expiration month">
                         <div class="one-line">
-                            <div>
+                            <div class="one-line_first">
                                 <label for="expyear">Exp year</label>
                                 <input type="text" id="expyear" name="expyear" placeholder="Expiration year">
                             </div>
-                            <div>
+                            <div class="one-line_second">
                                 <label for="cvv">CVC</label>
                                 <input type="text" id="cvc" name="cvc" placeholder="XXX">
                             </div>
                         </div>
                     </div>
-
                 </div>
             </form>
-            <form action="/thankyou-purchase.html">
+            <form class="cta-container" action="/thankyou-purchase.html">
                 <input type="submit" value="Pay now" class="cta">
             </form>
         </section>
