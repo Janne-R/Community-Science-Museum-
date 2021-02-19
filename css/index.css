@@ -2,8 +2,15 @@
   display: none;
 }
 
+.welcome-content,
+.cta-circle-section,
+.events {
+  padding: 5px 14px;
+}
+
 .cta-circle-section {
   background-color: var(--background-color-secondary);
+  padding-top: 28px;
 }
 
 .cta-circle_visit-us {
@@ -16,16 +23,6 @@
 
 .cta-circle_exhibitions {
   background-color: var(--color-quaternary);
-}
-
-.welcome-content,
-.cta-circle-section,
-.events {
-  padding: 5px 14px;
-}
-
-.cta-circle-section {
-  padding-top: 28px;
 }
 
 .event_img6 {
