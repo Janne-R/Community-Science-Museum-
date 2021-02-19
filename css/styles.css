@@ -98,6 +98,10 @@ nav li a {
   padding: 0 14px;
 }
 
+.current {
+  text-decoration: underline;
+}
+
 .welcome-section {
   background-color: var(--color-light);
   display: flow-root;
