@@ -12,12 +12,6 @@
   margin: 5px 14px;
 }
 
-.payment-block {
-  padding: 5px 14px;
-  display: flex;
-  flex-direction: column;
-}
-
 .one-line {
   display: flex;
   flex-wrap: wrap;
