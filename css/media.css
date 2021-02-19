@@ -57,6 +57,11 @@
     margin: 14px auto;
   }
 
+  .welcome-content_column {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
   .hero {
     height: 41vh;
   }

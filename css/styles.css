@@ -1,7 +1,7 @@
 @import "imports/variables.css";
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -120,6 +120,17 @@ nav li a {
 .welcome-content,
 .events {
   padding: 5px 14px;
+}
+
+.welcome-content_column {
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.welcome-content_column img {
+  display: block;
+  max-width: 100%;
 }
 
 .cta-circle-container {
