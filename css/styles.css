@@ -156,6 +156,12 @@ nav li a {
   margin: 14px;
 }
 
+.cta:hover,
+.cta-small:hover,
+.cta-circle:hover {
+  background: var(--color-quinary);
+}
+
 .cta-container,
 .cta-container_none,
 .cta-container_view {
