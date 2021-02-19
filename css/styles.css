@@ -122,7 +122,7 @@ nav li a {
   padding: 5px 14px;
 }
 
-.welcome-content_column {
+.welcome-content {
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
