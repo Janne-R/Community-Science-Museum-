@@ -1,5 +1,11 @@
 @import "imports/variables.css";
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 body {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
