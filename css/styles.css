@@ -164,6 +164,12 @@ nav li a {
   font-size: 28px;
 }
 
+input[type="text"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 .cta {
   background-color: var(--color-quaternary);
   color: var(--color-dark);
