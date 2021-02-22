@@ -2,13 +2,8 @@
   display: none;
 }
 
-.welcome-content,
-.cta-circle-section,
-.events {
-  padding: 5px 14px;
-}
-
 .cta-circle-section {
+  padding: 5px 14px;
   background-color: var(--background-color-secondary);
   padding-top: 28px;
 }
