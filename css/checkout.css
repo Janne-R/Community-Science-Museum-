@@ -1,12 +1,3 @@
-.checkout-section_img {
-  display: flex;
-  justify-content: center;
-}
-
-.checkout-section img {
-  max-width: 50%;
-}
-
 .payment-details {
   background-color: var(--color-light);
   margin: 5px 14px;
