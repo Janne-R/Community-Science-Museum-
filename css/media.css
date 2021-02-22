@@ -186,6 +186,23 @@
     grid-template-columns: 50% 50%;
   }
 
+  .content-block_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+  }
+
+  .content-block_kids img {
+    display: block;
+    max-width: 300px;
+    margin: 10px 40px;
+  }
+
+  .content-block_kids {
+    display: flex;
+    align-items: flex-end;
+  }
+
   /*footer*/
   .footer-section {
     display: flex;
