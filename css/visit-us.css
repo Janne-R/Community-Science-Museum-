@@ -7,20 +7,6 @@
   background-color: var(--color-quaternary);
 }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 350px;
-  width: 500px;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 350px;
-  width: 500px;
-}
-
 .visit-us-content,
 .content-block h2,
 .content-block p {
