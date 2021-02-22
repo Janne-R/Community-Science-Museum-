@@ -9,10 +9,10 @@
   margin-bottom: 26px;
 }
 
-.items {
-  margin-right: 14px;
-}
-
 .tickets_block_info {
   display: flex;
+}
+
+.items {
+  margin-right: 14px;
 }
