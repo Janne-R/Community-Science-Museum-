@@ -24,5 +24,4 @@
 
 .avoid-sticky-header {
   scroll-margin-top: 70px;
-  scroll-snap-margin-top: 70px;
 }
