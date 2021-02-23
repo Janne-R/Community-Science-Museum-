@@ -20,14 +20,14 @@
   background-color: var(--color-quaternary);
 }
 
-.event-bg-img1 {
+.event-bg-img-first {
   background-image: url(../images/scientific.jpg);
 }
 
-.event-bg-img2 {
+.event-bg-img-second {
   background-image: url(../images/celsonew-last.jpg);
 }
 
-.event-bg-img3 {
+.event-bg-img-third {
   background-image: url(../images/andrew.jpg);
 }
