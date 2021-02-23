@@ -3,29 +3,29 @@
   margin: 5px 14px;
 }
 
-.one-line {
+.flex-row-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.one-line :first-child {
+.flex-row-wrap :first-child {
   margin-right: 5px;
 }
 
-.one-line div {
+.flex-row-wrap div {
   display: flex;
   flex-direction: column;
 }
 
 label,
-.one-line {
+.flex-row-wrap {
   margin-top: 10px;
 }
 
-.one-line_first {
+.flex-row-wrap-first {
   flex-grow: 2;
 }
 
-.one-line_second {
+.flex-row-wrap-second {
   flex-grow: 1;
 }
