@@ -163,13 +163,13 @@
   .content-block-kids,
   .content-block-teachers,
   .content-block-researchers,
-  .content-block_tickets {
+  .content-block-tickets {
     border-style: solid;
     border-width: 1px;
     margin-top: 1em;
   }
   .content-block-kids,
-  .content-block_tickets {
+  .content-block-tickets {
     border-color: var(--color-quaternary);
   }
 

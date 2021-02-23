@@ -1,15 +1,15 @@
-.tickets p {
+.content-block-tickets p {
   margin: 0;
   padding: 0 14px;
 }
 
-.tickets_block {
+.tickets-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 26px;
 }
 
-.tickets_block_info {
+.tickets-block-info {
   display: flex;
 }
 
