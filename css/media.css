@@ -1,11 +1,11 @@
 @media (min-width: 480px) {
   /*common styles*/
-  .welcome-content {
+  .page-intro-content {
     display: flex;
     align-items: center;
   }
 
-  .welcome-content img {
+  .page-intro-content img {
     display: block;
     max-width: 40%;
     margin: 10px 40px;
@@ -19,27 +19,27 @@
   }
 
   /*Visit us*/
-  .cta-circle-section_white {
+  .cta-circles-container-white {
     display: none;
   }
 
-  .info-block_multiple {
+  .content-block-visit-us {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0 18px;
   }
 
-  .info-block_multiple h2,
-  .info-block_multiple p {
+  .content-block-visit-us h2,
+  .content-block-visit-us p {
     display: inline-block;
   }
 
   /*explore*/
-  .cta-container_none {
+  .cta-container-mobile {
     display: none;
   }
 
-  .cta-container_view {
+  .cta-container-desktop {
     display: flex;
   }
 
@@ -57,7 +57,7 @@
     margin: 14px auto;
   }
 
-  .welcome-content {
+  .page-intro-content {
     flex-direction: row;
     max-width: 1000px;
   }
@@ -66,7 +66,7 @@
     height: 41vh;
   }
 
-  .welcome-text-web {
+  .page-intro-content-desktop {
     display: block;
   }
 
@@ -104,19 +104,19 @@
   }
 
   /*exhibition-spaces*/
-  .item1 {
+  .event-cosmology {
     grid-area: cosmology;
   }
-  .item2 {
+  .event-evolution {
     grid-area: evolution;
   }
-  .item3 {
+  .event-biology {
     grid-area: biology;
   }
-  .item4 {
+  .event-robotics {
     grid-area: ai;
   }
-  .item5 {
+  .event-ecology {
     grid-area: ecology;
   }
 
@@ -130,7 +130,7 @@
   }
 
   /*visit us*/
-  .info-block {
+  .visit-us-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 18px;
@@ -142,13 +142,13 @@
     border-style: none;
   }
 
-  .info-block_multiple {
+  .content-block-visit-us {
     display: block;
   }
 
-  .info-block_location,
-  .info-block_multiple,
-  .info-block_contact {
+  .content-block-location,
+  .content-block-visit-us,
+  .content-block-contact {
     border-style: solid;
     border-width: 1px;
     border-color: var(--color-quaternary);
@@ -160,24 +160,24 @@
 
   /*explore*/
   /*buy-tickets*/
-  .content-block_kids,
-  .content-block_teachers,
-  .content-block_researchers,
+  .content-block-kids,
+  .content-block-teachers,
+  .content-block-researchers,
   .content-block_tickets {
     border-style: solid;
     border-width: 1px;
     margin-top: 1em;
   }
-  .content-block_kids,
+  .content-block-kids,
   .content-block_tickets {
     border-color: var(--color-quaternary);
   }
 
-  .content-block_teachers {
+  .content-block-teachers {
     border-color: var(--color-tertiary);
   }
 
-  .content-block_researchers {
+  .content-block-researchers {
     border-color: var(--color-secondary);
   }
 
@@ -186,25 +186,25 @@
     grid-template-columns: 50% 50%;
   }
 
-  .content-block_grid {
+  .content-block-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 14px;
   }
 
-  .content-block_kids img {
+  .content-block-kids img {
     display: block;
     max-width: 300px;
     margin: 10px 40px;
   }
 
-  .content-block_kids {
+  .content-block-kids {
     display: flex;
     align-items: flex-end;
   }
 
   /*footer*/
-  .footer-section {
+  .footer {
     display: flex;
     justify-content: space-between;
   }

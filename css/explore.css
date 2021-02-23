@@ -1,19 +1,19 @@
-.explore-section {
+.explore-container {
   padding: 5px 14px;
 }
 
-.content-block_teachers {
+.content-block-teachers {
   border-color: var(--color-tertiary);
 }
 
-.content-block_researchers {
+.content-block-researchers {
   border-color: var(--color-secondary);
 }
 
-.cta-container_view {
+.cta-container-desktop {
   display: none;
 }
 
-.content-block_kids img {
+.content-block-kids img {
   display: none;
 }

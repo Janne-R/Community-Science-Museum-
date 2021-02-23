@@ -1,5 +1,5 @@
 @import "imports/variables.css";
-
+/*common styles*/
 body {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
@@ -31,6 +31,31 @@ h3 {
 
 p {
   padding: 5px 14px;
+}
+
+.page-intro-container {
+  background-color: var(--color-light);
+  display: flow-root;
+}
+
+.page-intro-content img {
+  display: none;
+}
+
+.page-intro-content,
+.events-container {
+  padding: 5px 14px;
+}
+
+.page-intro-content {
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.page-intro-content_column img {
+  display: block;
+  max-width: 100%;
 }
 
 /*header*/
@@ -103,34 +128,8 @@ nav li a {
   text-align: center;
 }
 
-/*welcome-section*/
-.welcome-section {
-  background-color: var(--color-light);
-  display: flow-root;
-}
-
-.welcome-content img {
-  display: none;
-}
-
-.welcome-content,
-.events {
-  padding: 5px 14px;
-}
-
-.welcome-content {
-  flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.welcome-content_column img {
-  display: block;
-  max-width: 100%;
-}
-
 /*cta*/
-.cta-circle-container {
+.cta-circles-content {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -138,7 +137,7 @@ nav li a {
   padding: 14px 0;
 }
 
-.cta-circle-container a {
+.cta-circles-content a {
   text-decoration: none;
   color: var(--color-dark);
   font-weight: bold;
@@ -157,7 +156,7 @@ nav li a {
   justify-content: center;
 }
 
-.cta-circle-container i {
+.cta-circles-content i {
   font-size: 28px;
 }
 
@@ -181,13 +180,13 @@ nav li a {
 }
 
 .cta-container,
-.cta-container_none,
-.cta-container_view {
+.cta-container-mobile,
+.cta-container-desktop {
   display: flex;
   justify-content: flex-end;
 }
 
-/*input-default-styling-fix*/
+/*overwrite default safari/iOS styling*/
 input[type="text"],
 input[type="button"] {
   -webkit-appearance: none;
@@ -207,7 +206,7 @@ input[type="submit"] {
   margin-top: 1em;
 }
 
-.events p {
+.events-container p {
   padding-bottom: 23px;
 }
 
@@ -220,7 +219,7 @@ input[type="submit"] {
   align-items: center;
 }
 
-.events-list_block {
+.event {
   background-color: var(--color-light);
 }
 

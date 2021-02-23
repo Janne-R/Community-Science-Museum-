@@ -2,22 +2,22 @@
   background-image: url(../images/jesse.jpg);
 }
 
-.event_img1 {
+.event-bg-cosmology {
   background-image: url(../images/celsonew-last.jpg);
 }
 
-.event_img2 {
+.event-bg-evolution {
   background-image: url(../images/mammoth.jpg);
 }
 
-.event_img3 {
+.event-bg-biology {
   background-image: url(../images/people.jpg);
 }
 
-.event_img4 {
+.event-bg-robotics {
   background-image: url(../images/samuel-zeller-1new.jpg);
 }
 
-.event_img5 {
+.event-bg-ecology {
   background-image: url(../images/genoa.jpg);
 }

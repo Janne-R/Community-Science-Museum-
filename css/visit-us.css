@@ -1,23 +1,23 @@
-.cta-circle-section_white {
+.cta-circles-container-white {
   background-color: var(--color-light);
   display: flow-root;
 }
 
-.cta-circle_info {
+.cta-circle-info {
   background-color: var(--color-quaternary);
 }
 
-.visit-us-content,
+.visit-us-container,
 .content-block h2,
 .content-block p {
   padding: 5px 14px;
 }
 
-.blocks {
+.block {
   display: flex;
   justify-content: space-between;
 }
 
-.blocks p {
+.block p {
   margin: 0;
 }

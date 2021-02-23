@@ -1,33 +1,33 @@
-.welcome-text-web {
+.page-intro-content-desktop {
   display: none;
 }
 
-.cta-circle-section {
+.cta-circles-container {
   padding: 5px 14px;
   background-color: var(--background-color-secondary);
   padding-top: 28px;
 }
 
-.cta-circle_visit-us {
+.cta-circle-visit-us {
   background-color: var(--color-quaternary);
 }
 
-.cta-circle_buy-tickets {
+.cta-circle-buy-tickets {
   background-color: var(--color-tertiary);
 }
 
-.cta-circle_exhibitions {
+.cta-circle-exhibitions {
   background-color: var(--color-quaternary);
 }
 
-.event_img6 {
+.event-bg-img1 {
   background-image: url(../images/scientific.jpg);
 }
 
-.event_img7 {
+.event-bg-img2 {
   background-image: url(../images/celsonew-last.jpg);
 }
 
-.event_img8 {
+.event-bg-img3 {
   background-image: url(../images/andrew.jpg);
 }
