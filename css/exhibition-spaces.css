@@ -1,23 +1,19 @@
-.bg-img-exhibition {
-  background-image: url(../images/jesse.jpg);
-}
-
 .event-bg-cosmology {
   background-image: url(../images/celsonew1.jpg);
 }
 
 .event-bg-evolution {
-  background-image: url(../images/mammoth.jpg);
+  background-image: url(../images/mammothnew.jpg);
 }
 
 .event-bg-biology {
-  background-image: url(../images/people.jpg);
+  background-image: url(../images/peoplenew.jpg);
 }
 
 .event-bg-robotics {
-  background-image: url(../images/samuel-zeller-1new.jpg);
+  background-image: url(../images/roboticsnew.jpg);
 }
 
 .event-bg-ecology {
-  background-image: url(../images/genoa.jpg);
+  background-image: url(../images/genoanew.jpg);
 }
