@@ -1,5 +1,5 @@
 @media (min-width: 480px) {
-  /*common styles*/
+  /*page-intro*/
   .page-intro-content {
     display: flex;
     align-items: center;
@@ -9,13 +9,6 @@
     display: block;
     max-width: 40%;
     margin: 10px 40px;
-  }
-
-  /*exhibition-spaces*/
-  .events-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 14px;
   }
 
   /*Visit us*/
@@ -32,6 +25,13 @@
   .content-block-visit-us h2,
   .content-block-visit-us p {
     display: inline-block;
+  }
+
+  /*exhibition-spaces*/
+  .events-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
   }
 
   /*explore*/
@@ -51,27 +51,15 @@
 }
 
 @media (min-width: 768px) {
-  /*common styles*/
+  /*common style*/
   section > * {
     max-width: 1000px;
     margin: 14px auto;
   }
 
-  .page-intro-content {
-    flex-direction: row;
-    max-width: 1000px;
-  }
-
-  .hero {
-    height: 41vh;
-  }
-
-  .page-intro-content-desktop {
-    display: block;
-  }
-
-  .events-list {
-    grid-template-columns: unset;
+  .content-block {
+    margin-top: 0;
+    border-style: none;
   }
 
   /*header*/
@@ -103,6 +91,50 @@
     padding: 8px 16px;
   }
 
+  /*hero*/
+  .hero {
+    height: 41vh;
+  }
+
+  /*page-intro*/
+  .page-intro-content {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
+  .page-intro-content-desktop {
+    display: block;
+  }
+
+  /*events*/
+  .events-list {
+    grid-template-columns: unset;
+  }
+
+  /*visit us*/
+  .visit-us-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 18px;
+    margin-bottom: 18px;
+  }
+
+  .content-block-visit-us {
+    display: block;
+  }
+
+  .content-block-location,
+  .content-block-visit-us,
+  .content-block-contact {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-quaternary);
+  }
+
+  iframe {
+    height: 750px;
+  }
+
   /*exhibition-spaces*/
   .event-cosmology {
     grid-area: cosmology;
@@ -129,37 +161,7 @@
       "biology ai ecology";
   }
 
-  /*visit us*/
-  .visit-us-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 18px;
-    margin-bottom: 18px;
-  }
-
-  .content-block {
-    margin-top: 0;
-    border-style: none;
-  }
-
-  .content-block-visit-us {
-    display: block;
-  }
-
-  .content-block-location,
-  .content-block-visit-us,
-  .content-block-contact {
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color-quaternary);
-  }
-
-  iframe {
-    height: 750px;
-  }
-
   /*explore*/
-  /*buy-tickets*/
   .content-block-kids,
   .content-block-teachers,
   .content-block-researchers,
@@ -181,11 +183,6 @@
     border-color: var(--color-secondary);
   }
 
-  .payment-form {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
   .content-block-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,6 +198,12 @@
   .content-block-kids {
     display: flex;
     align-items: flex-end;
+  }
+
+  /*buy-tickets*/
+  .payment-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
   /*footer*/
