@@ -235,10 +235,6 @@ input[type="submit"] {
 
 /*overwrite default safari/iOS styling*/
 input[type="text"],
-input[type="button"] {
-  -webkit-appearance: none;
-}
-
 input[type="submit"] {
   -webkit-appearance: none;
 }
