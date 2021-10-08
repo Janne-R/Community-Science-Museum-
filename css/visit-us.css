@@ -25,3 +25,22 @@
 .avoid-sticky-header {
   scroll-margin-top: 70px;
 }
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.formMessage {
+  background: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+:disabled {
+  background-color: lightgray;
+}
