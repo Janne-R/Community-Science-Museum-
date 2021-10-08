@@ -86,14 +86,14 @@ nav li a {
 
 /*header-image*/
 .bg-img {
-  background-image: url(../images/heroImg.png);
+  background-image: url(../images/communityheroImg.jpg);
 }
 
 /*hero*/
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 58vh;
+  height: 44vh;
   background-position: center center;
 }
 
