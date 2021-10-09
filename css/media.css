@@ -48,6 +48,11 @@
     display: flex;
     align-items: center;
   }
+
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 768px) {
@@ -204,6 +209,11 @@
   .payment-form {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   /*footer*/

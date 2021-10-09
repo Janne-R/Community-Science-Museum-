@@ -42,10 +42,10 @@ function showCart(cartItems) {
     cartList.innerHTML +=
       `
     <div class="cart-item">
-    <h4>${cartElement.name}</h4>
+    <p>${cartElement.name}</p>
     <p>Price $: ${cartElement.price},-</p>
     </div>
     `
   })
-  totalContainer.innerHTML = `Total $: ${total},-`;
+  totalContainer.innerHTML = `<p>Total $: ${total},-</p>`;
 }
