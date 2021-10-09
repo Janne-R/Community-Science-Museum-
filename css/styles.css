@@ -224,6 +224,7 @@ input[type="submit"] {
 .cta-small:hover,
 .cta-circle:hover {
   background: var(--color-quinary);
+  cursor: pointer;
 }
 
 .cta-container,

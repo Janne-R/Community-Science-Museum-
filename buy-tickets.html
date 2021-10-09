@@ -51,70 +51,16 @@
         </div>
       </div>
     </section>
-    <section class="events-container">
-      <div class="content-block content-block-tickets">
-        <h2>Choose tickets</h2>
-        <div class="tickets-block">
-          <div class="tickets-block-info">
-            <p>Kids (under 7 y/o)</p>
-          </div>
-          <p>$ Free</p>
-          <div class="items">
-            <label for="under7-items">Items:</label>
-            <select id="under7-items" name="items">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
-          </div>
-        </div>
-        <div class="tickets-block">
-          <div class="tickets-block-info">
-            <p>Kids (7-16 y/o)</p>
-          </div>
-          <p>$ 10</p>
-          <div class="items">
-            <label for="kids-items">Items:</label>
-            <select id="kids-items" name="items">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
-          </div>
-        </div>
-        <div class="tickets-block">
-          <div class="tickets-block-info">
-            <p>Students</p>
-          </div>
-          <p>$ 15</p>
-          <div class="items">
-            <label for="students-items">Items:</label>
-            <select id="students-items" name="items">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
-          </div>
-        </div>
-        <div class="tickets-block">
-          <div class="tickets-block-info">
-            <p>Adults</p>
-          </div>
-          <p>$ 20</p>
-          <div class="items">
-            <label for="adults-items">Items:</label>
-            <select id="adults-items" name="items">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="cta-container">
-        <a href="checkout.html" class="cta">Checkout</a>
-      </div>
+    <section class="products">
+      <h2>Choose tickets</h2>
     </section>
+
+    <div class="cart">
+      <div class="cart-list"></div>
+      <div class="total">Total:</div>
+      <a href="checkout.html">Checkout</a>
+    </div>
+
   </main>
   <footer>
     <section>
@@ -159,6 +105,7 @@
       <p>Copyright ©2021 Community Science Museum </p>
     </section>
   </footer>
+  <script type="module" src="js/buyTickets.js"></script>
 </body>
 
 </html>
